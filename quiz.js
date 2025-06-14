@@ -5,9 +5,8 @@ function checkAnswer() {
 
     // Check if the user selected an answer
     if (userAnswer) {
-        const userAnswerValue = userAnswer.value;
 
-        if (userAnswerValue === correctAnswer) {
+        if (userAnswer === correctAnswer) {
             document.getElementById("feedback").innerHTML = "Correct! Well done!";
         } else {
             document.getElementById("feedback").innerHTML = "That's incorrect. Try again.";
