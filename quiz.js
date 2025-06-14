@@ -11,7 +11,7 @@ function checkAnswer() {
         if (userAnswer === correctAnswer) {
             document.getElementById("feedback").textContent = "Correct! Well done."; // User's answer is correct
         } else {
-            document.getElementById("feedback").textContent = "That's incorrect. Try again."; // User's answer is incorrect
+            document.getElementById("feedback").textContent = "That's incorrect. Try again!"; // User's answer is incorrect
         }
     } else {
         document.getElementById("feedback").textContent = "Please select an answer!"; // No answer selected
