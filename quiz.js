@@ -8,7 +8,7 @@ function checkAnswer() {
 
     if (userAnswer) {  // Check if any radio button is selected
         // Step 4: Compare the User’s Answer with the Correct Answer
-        if (userAnswer.value === correctAnswer) {
+        if (userAnswer === correctAnswer) {
             document.getElementById("feedback").textContent = "Correct! Well done."; // User's answer is correct
         } else {
             document.getElementById("feedback").textContent = "That's incorrect. Try again."; // User's answer is incorrect
